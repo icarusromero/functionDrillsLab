@@ -52,11 +52,10 @@ greeting('Shigeo')
 function add(num1, num2) {
   let num1C = Number(num1)
   let num2C = Number(num2)
-  console.log(num1C + num2C)
-  return [num1, num2]
+  return num1C + num2C
 }
 let sum = add('56', 7)
-
+console.log(sum)
 ////////////////// PROBLEM 5 ////////////////////
 /*
   Write a function called nameCheck that takes in a name parameter.
