@@ -67,8 +67,18 @@ let sum = add('56', 7)
 */
 
 //CODE HERE
-
-
+function nameCheck(name) {
+  if (name === 'Steven'){
+    return 'What is up Steven?'
+  } else if (name === 'Bryan'){
+    return 'Hey Bryan!'
+  } else {
+    let NAMEPARAM = name
+    return `Cool name, ${NAMEPARAM}`
+  }
+}
+let nameGreeting = nameCheck('Bryan')
+console.log(nameGreeting)
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
