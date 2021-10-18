@@ -17,7 +17,10 @@ helloWorld()
 */
 
 //CODE HERE
-
+function printName(name) {
+  console.log(name)
+}
+printName('Otto')
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
