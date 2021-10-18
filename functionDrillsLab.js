@@ -35,7 +35,8 @@ printName('Otto')
 
 //CODE HERE
 function greeting(name) {
-  console.log('Hello,' + name)
+  let nameString = String(name)
+  console.log('Hello, ' + nameString)
 }
 greeting('Shigeo')
 
@@ -48,7 +49,9 @@ greeting('Shigeo')
 */
 
 //CODE HERE
+function add(num1, num2) {
 
+}
 
 ////////////////// PROBLEM 5 ////////////////////
 /*
