@@ -190,7 +190,11 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
+function bigBoy(string){
+  let newString = string.toUpperCase()
+  console.log(newString)
+}
+bigBoy(sampleString)
 
 ////////////////// PROBLEM 12 ////////////////////
 /*
