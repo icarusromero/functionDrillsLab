@@ -50,8 +50,12 @@ greeting('Shigeo')
 
 //CODE HERE
 function add(num1, num2) {
-
+  let num1C = Number(num1)
+  let num2C = Number(num2)
+  console.log(num1C + num2C)
+  return [num1, num2]
 }
+let sum = add('56', 7)
 
 ////////////////// PROBLEM 5 ////////////////////
 /*
