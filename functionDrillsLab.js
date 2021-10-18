@@ -225,7 +225,19 @@ console.log(emailCheck('boogyman37@yeehoo.com'))
 */
 
 //CODE HERE
-
+function spoiledPrat(gold){
+  let frogs = 0
+  if (gold % 3 !== 0){
+    gold = gold - (gold % 3)
+  }
+  while (gold > 0){
+    gold -= 3
+    frogs += 1
+  }
+  return frogs
+}
+let totalFrogs = spoiledPrat(37)
+console.log(totalFrogs)
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
