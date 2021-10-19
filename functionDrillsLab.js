@@ -245,7 +245,7 @@ console.log(totalFrogs)
 */
 
 //CODE HERE
-
+//already fixed it in the original
 
 ////////////////// PROBLEM 15 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
