@@ -254,7 +254,23 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 */
 
 //CODE HERE
-
+let help = ''
+function ascending(array){
+  for (let i = 0; i < array.length; i++){
+    for (let x = 1; x < array.length; x++){
+      if (array[i] > array[x]){
+        help = 'false'
+      }
+    }
+  }
+  if (help === 'false'){
+    return false
+  } else {
+    return true
+  }
+}
+let arrayIsAscending = ascending(sampleArray)
+console.log(arrayIsAscending)
 
 ////////////////// PROBLEM 16 ////////////////////
 
